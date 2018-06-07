@@ -1,0 +1,20 @@
+{% extends "layout.html" %}
+
+{% block title %}
+  {% if title %}
+    {{title}} -Blog
+  {% else %}
+    Welcome to Microblog!
+  {% endif %}
+{% endblock %}
+
+{% block content %}
+<h1>Welcome to my Blog</h1>
+<h4>This is Flask101 lesson</h4>
+<h2> Hello, {{user.username}}</h2>
+{% for post in posts %}
+<div>
+  <p>{{post.author.username}} says:<b>{{ post.body }} </b> </p>
+</div>
+{% endfor %}
+{% endblock %}
