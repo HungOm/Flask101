@@ -1,4 +1,31 @@
 body{
-  background: gray;
-  color:blue;
+  background: #F5F7D4;
+  color:#183BF0;
+}
+div{
+  background-color:#091034;
+}
+a {
+  font-size: 40px;
+  color: #E4F132;
+}
+
+table tr td h1 {
+  color:#66B032;
+}
+span{
+  color:#FD3A0F;
+}
+#message{
+  color:#E4F132;
+  background-color:#1D2759;
+}
+#register{
+  color:green;
+}
+.usersays{
+  color:#66B032;
+}
+table tr td img{
+  border-radius: 1px green;
 }
