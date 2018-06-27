@@ -1,5 +1,5 @@
 from werkzeug.urls import url_parse
-from app import app,db
+from app import app, db
 from flask import render_template,flash,redirect,request, url_for
 from app.forms import LoginForm,RegistrationForm, EditprofileForm
 from flask_login import current_user, login_user, logout_user,login_required
