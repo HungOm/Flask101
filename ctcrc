@@ -1,2 +1,15 @@
 export FLASK_APP=microblog.py
 export FLASK_DEBUG=1
+
+#sending error email locally
+
+export MAIL_SERVER=localhost
+export MAIL_PORT=8025
+
+#sending error email using gmail
+
+export MAIL_SERVER=stmp.googlemail.com
+export MAIL_PORT=587
+export MAIL_US_TLS=1
+export MAIL_USERNAME=ahnajayctc@gmail.com
+export MAIL_PASSWORD=ahnajayctc1234
